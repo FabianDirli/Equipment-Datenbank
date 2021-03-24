@@ -36,6 +36,7 @@ app.get('/', function (req, res, next) {
 });
 
 
+
 //User registrien
 app.post("/api/sign-up", (request, response) => {
     var user = request.cookies["username"];
